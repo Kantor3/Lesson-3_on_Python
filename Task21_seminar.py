@@ -9,14 +9,13 @@
 список: [], ищем: "123", ответ: -1
 """
 
-import my_Lib as my
 from functools import reduce
 
 
 def find_pos(first, second):
-    occur_write = 1 if second == str_find else 0
-    pos_write = first[0] if (first[1] == numb_occur - 1) and (occur_write == 1) else 0
-    return tuple([a + b for a, b in zip(first, (1, occur_write, pos_write))])
+    occur_find = 1 if second == str_find else 0
+    pos_find = first[0] if (first[1] == numb_occur - 1) and (occur_find == 1) else 0
+    return tuple([a + b for a, b in zip(first, (1, occur_find, pos_find))])
 
 
 print('Ищем позицию 2-го вхождения строки в списке:')
