@@ -61,7 +61,7 @@ def get_InputNumber(*rang, txt='Введите число', type_input=int, end=
     return numb
 
 
-# Ввод нескольких целых чисел - Возврат введенных чисел в виде кортежа
+# Ввод нескольких элементов данных (целых чисел, строк) - Возврат введенных чисел в виде кортежа
 def get_InputTuple(*inputParams, type_input=int, end=None):
     tup_iPar = tuple()
     for param in inputParams:
