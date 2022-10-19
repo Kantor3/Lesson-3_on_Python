@@ -18,7 +18,7 @@ def find_pos(first, second):
     return tuple([a + b for a, b in zip(first, (1, occur_find, pos_find))])
 
 
-print('Ищем позицию 2-го вхождения строки в списке:')
+print('Ищем № позицию n-го вхождения строки в списке:')
 numb_occur = 2
 reduce_init = (0,) * 3
 
